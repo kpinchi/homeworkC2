@@ -1,0 +1,25 @@
+primero crear un repositori en github sin readme
+
+si se clono una carpeta de github se debe eliminar la carpeta git q esta oculta
+luego 
+git init
+git add .
+git READEME.dm
+git commit -m "descripcion de lo que se esta actualizando o subiendo"
+git branch -M main
+git remote add origin https://github.com/kpinchi/RpositorioHenry.git //////se especifica la direccion
+del repositorio creado en github
+git push -u origin main
+
+
+y terminamos, podemos actualizar la web del github para pode ver los cambios
+
+para simplimente actualizar nuestro repositorio 
+hacemos lo siguiente
+
+git add .
+git commit -m "Homework realizado"
+git push -u origin main
+
+RECORDAR QUE PARA PODER HACER TODO ESTO DEBO ESTAR EN CARPETA QUE QUIERO SUBIR A GITHUB
+UNA VEZ VINCULADO EL GIT CON EL GITHUB SOLO SE USAN LOS TRES COMANDO MENSIONADOS ANTERIORMENTE
